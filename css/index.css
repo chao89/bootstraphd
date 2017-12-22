@@ -1,0 +1,138 @@
+body{color: #7f7f7f;font-family: "Raleway", Arial, sans-serif;font-weight: 400;font-size: 16px;line-height: 1.7;position: relative}
+ul{list-style: none;margin: 0;padding: 0}
+.clear:after{clear: both;content: "";display: block}
+.fl{float: left}
+.fr{float: right}
+a:hover{text-decoration: none;}
+
+h2{margin:0 0 20px 0;color: #000}
+h3{margin: 0 0 30px 0}
+
+.header-inner{height: 80px;padding: 0 20px}
+.header-inner h1{margin: 0;line-height: 80px;}
+.header-inner h1 a{color: #000;position: relative}
+.header-inner h1 a:after{display: block;content: "";width: 8px;height: 8px;border-radius: 50%;background-color: #27E1CE;position: absolute;bottom: 27px;right: -8px;}
+
+header{height: 80px;width: 100%;position: fixed;z-index: 999}
+header .navbar-default{border: none;height: 80px;margin: 0;padding: 0 20px;background-color: #fff;}
+header .navbar-default .navbar-brand{font-size: 30px;color: #000;font-weight: 700;line-height: 80px;padding: 0;position: relative}
+header .navbar-default .navbar-brand:hover{color: #000;}
+header .navbar-default .navbar-brand:after{display: block;content: "";width: 8px;height: 8px;border-radius: 50%;background-color: #27E1CE;position: absolute;bottom: -1px;right: -8px}
+header .navbar-default .navbar-collapse{position: fixed;z-index: 999;right: 20%}
+header .navbar-default .navbar-collapse .navbar-nav li a:hover{color:#27E1CE }
+header .navbar-default .navbar-collapse .navbar-nav{background-color: #fff;}
+
+nav ul li a:hover:after{display: block;
+    animation: dh-dx 0.2s;
+    -webkit-animation: dh-dx 0.2s;
+    -moz-animation: dh-dx 0.2s;
+    -o-animation: dh-dx 0.2s;
+    -ms-animation: dh-dx 0.2s;
+    animation-fill-mode: forwards;
+}
+@keyframes dh-dx {
+    0%{width: 0}
+    100%{width: 100%;margin-left: -50%}
+}
+.navbar-toggle{position: fixed;z-index: 999;right: 20px;top: 15px}
+
+
+.carousel-inner .item .img1{width: 100%;height: 750px;background: url("../img/slide_1.jpg") center/cover no-repeat}
+.carousel-inner .item .img2{width: 100%;height: 750px;background: url("../img/slide_2.jpg") center/cover no-repeat}
+.carousel-inner .item .img3{width: 100%;height: 750px;background: url("../img/slide_3.jpg") center/cover no-repeat}
+#carousel-example-generic{padding-top: 80px;}
+#carousel-example-generic .carousel-caption{top: 30%;text-shadow:none}
+#carousel-example-generic .carousel-caption h2{font-size: 70px;color: #fff;}
+#carousel-example-generic .carousel-caption a{font-size: 24px;color: #fff;padding: 14px 30px;background-color: #27E1CE;border-radius: 30px}
+
+
+.nro{padding: 6rem 0 2rem;}
+.nro .row .roo{margin-bottom: 30px}
+.nro .row .roo p{margin-bottom: 30px}
+.nro .row .rww .row .rtu{font-size: 40px;color: #27E1CE;}
+.nro .row .rww .row .desc h3{margin: 0 0 30px 0;color: #000}
+.nro .row .rww .row .desc p{margin: 0 0 30px 0}
+
+.nrt{background: rgba(0, 0, 0, 0.03);padding: 2rem 0}
+.nrt .rwo{margin-bottom: 30px}
+.nrt .tk a{display:block;background-color: #fff;margin-bottom: 50px;box-shadow: 0 2px 10px #ccc;transition: 0.5s linear}
+.nrt .tk a:hover{box-shadow: 0 10px 10px #ccc;transform: translateY(-3px)}
+.nrt .tpk{width: 100%;height: 300px;overflow: hidden;}
+.nrt .igf{padding: 30px}
+.nrt .igf h3{font-weight: 700;font-size: 20px;color: #000;}
+.nrt .igf h5{color: rgba(0,0,0,0.3);margin: 0 0 30px 0}
+.nrt .tdh a{background: #27E1CE;color: #fff;border: 2px solid #27E1CE;border-radius: 30px;padding: 10px 20px}
+
+.cli{padding:2rem 0 5rem}
+.cli .clf p{margin: 0 0 30px 0}
+.cli .lbt{margin-top: 30px}
+.cli .lbt .yq img{width: 120px;height: 120px;border-radius: 50%;margin-bottom: 20px}
+.cli .lbt .qxf{width: 70%;padding: 10px 20px 30px;margin: 0 auto;font-size: 20px;color: #1a1a1a;line-height: 25px;overflow: hidden}
+.cli .lbt .qff{font-size: 18px}
+.cli .lbt .qff a{color: #27E1CE;font-weight: 300}
+.cli .lbt-nav{margin-top: 30px;height: 50px;text-align: center}
+.cli .lbt-nav .lnd{width: 10px;height: 10px;border-radius: 50%;background-color: #bdbbbb;margin: 5px 7px;display: inline-block;cursor: pointer}
+.cli .lbt-nav .lnd.ldd{background-color:#fff;border: 2px solid #27E1CE;}
+
+.pri{padding: 2rem 0 5rem;background: rgba(0, 0, 0, 0.03);}
+.pri .pow{margin-bottom: 30px}
+.pri .rlk{padding: 30px;background-color: #fff;box-shadow: 0 2px 10px #ccc;transition: 0.5s linear}
+.pri .rlk:hover{box-shadow: 0 10px 10px #ccc;transform: translateY(-3px);animation-fill-mode: forwards }
+.pri .rlk:hover div{color: #27E1CE}
+.pri .rlk:hover a{background-color: #27E1CE}
+.pri .rlk h3{font-size: 13px;letter-spacing: 2px;font-weight: 700;color: #888f94;}
+.pri .rlk div{font-size: 72px;color: #6d6d6d;line-height: 50px;}
+.pri .rlk div span{font-size: 30px;padding-right: 10px;vertical-align:text-top}
+.pri .rlk div p{font-size: 13px;color: #888f94;margin: 0}
+.pri .rlk p{margin-bottom: 30px}
+.pri .rlk a{font-size: 16px;background: #5bc0de;color: #fff;padding: 10px 20px;border-radius: 30px}
+
+.las{background: url("../img/slide_2.jpg") center/cover no-repeat;background-attachment:fixed;}
+.las .laz{padding: 110px 0;background-color: rgba(0,0,0,0.7)}
+.las .laz h3{color: #fff;}
+.las .laz a{color: #fff;padding: 10px 20px;border-radius: 30px;border: 2px solid #27E1CE;}
+
+footer{padding: 110px 0;background-color:#262626;}
+footer .abo{margin-bottom: 10px}
+footer h3{font-size: 16px;font-weight: 700;color: #fff;letter-spacing: 2px;}
+footer .aba{padding: 5px 20px;border: 2px solid #27E1CE;border-radius: 30px;color: #fff;}
+footer ul li{margin: 0 0 10px 0}
+footer ul li a{color: #fff;opacity: 0.5}
+footer ul li a:hover{color: #fff;;opacity: 1}
+footer .wdz{padding: 40px 0;margin-top: 40px;border-top: 1px solid rgba(255, 255, 255, 0.1)}
+
+@media screen and (min-width: 768px){
+    header .navbar-default .navbar-collapse .navbar-nav li a{font-size: 18px;padding:0 10px;line-height: 80px;position: relative}
+
+    nav ul li a:after{display: none;content: "";height: 2px;width: 100%;background-color: #27E1CE;position: absolute;top: 60px;left: 50%;transition:0.2s}
+}
+
+@media screen and (max-width: 768px){
+    #carousel-example-generic .carousel-caption h2{font-size: 40px;}
+    header .navbar-default .navbar-collapse .navbar-nav li a{font-size: 18px;padding:0 10px; line-height:36px;position: relative}
+
+    nav ul li a:after{display: none;content: "";height: 2px;width: 100%;background-color: #27E1CE;position: absolute;left: 50%;transition:0.2s}
+}/*媒体查询*/
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@keyframes pulse {
+    0% {
+        transform:translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
